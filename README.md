@@ -3,7 +3,7 @@ Python application for labeling images.
 
 Label images by button presses. Jump back and forward between images, labels the ones you want. Keeps track of labels in a csv file so that a labeling session can be ended and then started up again. 
 
-**Requirements**: Python3, Pillow uses [tkinter](https://docs.python.org/3/library/tk.html) for the GUI.
+**Requirements**: Python3, Pillow. The application uses [tkinter](https://docs.python.org/3/library/tk.html) for the GUI.
 
 ### Usage
     python3 img_labler.py [-h] --imgpath IMGPATH [--labels [LABELS [LABELS ...]]] [--labelfile LABELFILE]
