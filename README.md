@@ -8,6 +8,6 @@ Label images by button presses. Jump back and forward between images, labels the
 ### Usage
     python3 img_labler.py [-h] --imgpath IMGPATH [--labels [LABELS [LABELS ...]]] [--labelfile LABELFILE]
 
-By default the application stores the labelings in a csv file with the following structure: ```[file_index, label_index, label_name, file_path]``
+By default the application stores the labelings in a csv file with the following structure: ```[file_index, label_index, label_name, file_path]```
 
 ### Making Modifications
