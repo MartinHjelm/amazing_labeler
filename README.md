@@ -3,9 +3,8 @@ Python application for labeling images.
 
 **Requirements**: Pillow, Tkinter.
 
-## Usage
-```usage: img_labler.py [-h] --imgpath IMGPATH [--labels [LABELS [LABELS ...]]]
-                     [--labelfile LABELFILE]```
+### Usage
+    img_labler.py [-h] --imgpath IMGPATH [--labels [LABELS [LABELS ...]]] [--labelfile LABELFILE]
 
 
 ## Making Modifications
