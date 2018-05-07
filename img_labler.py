@@ -1,3 +1,14 @@
+#!/usr/bin/env python
+
+######################################################
+#
+# The amazing image labeler - img labeling in Python.
+# Written by Martin Hjelm (martinhjelm@kth.se)
+#
+######################################################
+
+
+
 import argparse
 from collections import namedtuple
 import csv
@@ -272,13 +283,12 @@ def parse_clis():
 
 if __name__ == '__main__':
 
-    # img_path, labels = parse_clis()
-    # img_path = '/Users/martinhjelm/Dropbox/Code/salientpointdetection/webpages/affordance_pics/'
-    img_path = '/Users/martinhjelm/Dropbox/CamerImgs'
-    labels = ['Bad', 'Good']
+    # Comment in, to specify path and labels directly.
+    # img_path = 'MyImgPath'
+    # labels = ['Cat1', 'Cat2', 'Cat3']
+    # Comment out if specifying directly.
+    img_path, labels = parse_clis()
+    
     root = Tk()
     img_labler_obj = ImgLabler(master=root, img_path=img_path, labels=labels)
     root.mainloop()
-
-
-# /Users/martinhjelm/Dropbox/Code/salientpointdetection/webpages/affordance_pics/
